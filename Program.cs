@@ -20,7 +20,7 @@ public class PasswordGenerator
             }
             if (percentageProgress != latestPercentagePrinted)
             {
-                Console.WriteLine($"{(int)percentageProgress}% complete.");
+                Console.WriteLine($"{percentageProgress}% complete.");
                 latestPercentagePrinted = percentageProgress;
             }
             password.Append(characters[random.Next(characters.Length)]);
