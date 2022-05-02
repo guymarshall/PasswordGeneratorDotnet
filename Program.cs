@@ -3,7 +3,7 @@ using System.IO;
 
 public class PasswordGenerator
 {
-    public static String GeneratePassword(String[] characters, int number)
+    public static string GeneratePassword(string[] characters, int number)
     {
         int counter = 0;
         StringBuilder password = new StringBuilder();
